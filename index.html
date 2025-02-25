@@ -9,8 +9,36 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1 class="text-red-500">Hello</h1>
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto py-5 bg-gray-200">
+        <header>
+            <nav class="flex justify-center items-center">
+                <div class="mt-50 relative flex justify-center items-center w-9/12 ">
+                    <img class="w-[316px] absolute top-[-2.5rem]" src="./assets/image/bg.png" alt="">
+                    <img class="w-[75.84px] z-1" src="./assets/image/Group.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <!-- Log in Form -->
+        <div class="hero mt-15">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-base-100 w-[300px] max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="fieldset-label font-bold">Account Number</label>
+                    <input type="number" class="input" placeholder="Enter Your Number" />
+                    <label class="fieldset-label font-bold">PIN</label>
+                    <input type="password" class="input" placeholder="Enter PIN Number" />
+                    <div><a class="link link-hover">Forgot password?</a></div>
+                    <button class="btn btn-neutral mt-4">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+    
 
 
     <script src="./assets/js/main.js"></script>
