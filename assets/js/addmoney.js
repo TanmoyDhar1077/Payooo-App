@@ -1,4 +1,4 @@
-document.getElementById('add-money-submit').addEventListener('click', function (event) {
+function addMoney(event) {
     event.preventDefault();
     const amount = document.getElementById('add-money-amount').value;
     const amountFloat = parseFloat(amount);
@@ -7,15 +7,26 @@ document.getElementById('add-money-submit').addEventListener('click', function (
     const convertedPin = parseInt(pinNumber);
     const mainBalance = document.getElementById('main-balance').innerText;
     const mainBalanceFloat = parseFloat(mainBalance);
-    
-    if(convertedPin === 1234){
-        const newBalance = mainBalanceFloat + amountFloat;
-        document.getElementById('main-balance').innerText = newBalance;
-        
-        // alert('Money Added Successfully');
+
+    if (amount && pinNumber) {
+        if (convertedPin === 1234) {
+            const newBalance = mainBalanceFloat + amountFloat;
+            document.getElementById('main-balance').innerText = newBalance;
+
+            // alert('Money Added Successfully');
+        }
+        else {
+            alert('Invalid Pin Number');
+        }
     }
-    else{
-        alert('Invalid Pin Number');
+    else {
+        alert('Please enter the amount');
     }
-    
+}
+document.getElementById('add-money-submit').addEventListener('click', addMoney);
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        addMoney(event);
+    }
 });
