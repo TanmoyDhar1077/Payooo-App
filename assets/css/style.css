@@ -4,8 +4,9 @@
     background: #FFF;
 }
 
-.card {
+.card1 {
     display: flex;
+    flex-direction: column;
     width: 123px;
     border: 1px solid rgba(8, 8, 8, 0.10);
     padding: 20px 10px;
@@ -15,7 +16,7 @@
     border-radius: 12px;
 }
 
-.card:hover {
+.card1:hover {
     background-color: aquamarine;
     border: none;
 }
