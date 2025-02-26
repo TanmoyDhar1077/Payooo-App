@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Money</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto bg-gray-200">
+        <header>
+            <nav class="flex justify-between bg-white items-center border-b-2 border-[rgba(8,8,8,0.10)] py-5">
+                <div class="flex gap-3 ml-3">
+                    <img class="w-[50px] h-[48px]" src="./assets/image/Group.png" alt="">
+                    <div class="flex flex-col gap-[6px]">
+                        <h2 class="font-extrabold text-lg">$ 4500</h2>
+                        <p class="text-black/50">Available Balance</p>
+                    </div>
+                </div>
+                <button
+                    class="text-sm py-2 px-3 rounded-[8px] border border-[rgba(8,8,8,0.10)] text-[rgb(8_8_8_/_50%)] mr-3 cursor-pointer"><i
+                        class="fa-solid fa-right-from-bracket"></i> Log Out</button>
+            </nav>
+        </header>
+        <section class="card-section pt-5">
+            <div class="flex flex-col gap-3 ml-3">
+                <h2 class="text-2xl font-bold">🔥 Welcome to Payooo!</h2>
+                <p class="text-[rgb(8_8_8_/_50%)] text-[16px]/[30px]
+                    ">Enjoy easy and convenient financial services with us.<br> Cashout charge is low and </p>
+            </div>
+            <div class="my-5 flex flex-wrap justify-center gap-3">
+                <a href="addMoney.html">
+                    <div class="card1">
+                        <img src="./assets/image/wallet1.png" alt="">
+                        <p class="font1">Add Money</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card1">
+                        <img src="./assets/image/send1.png" alt="">
+                        <p class="font1">Cashout</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card1">
+                        <img src="./assets/image/money1.png" alt="">
+                        <p class="font1">Transfer Money</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card1">
+                        <img src="./assets/image/bonus1.png" alt="">
+                        <p class="font1">Get Bonus</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card1">
+                        <img src="./assets/image/purse1.png" alt="">
+                        <p class="font1">Pay Bill</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card1">
+                        <img src="./assets/image/transaction1.png" alt="">
+                        <p class="font1">Transactions</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="latest-payment mt-7 pb-16 px-6">
+            <h3 class="font-semibold text-lg mb-4">Add Money</h3>
+            <div class="card3">
+                <form action="">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex flex-col gap-3">
+                            <label for="" class="text-[1rem] font-medium text-[ text-[rgb(8_8_8_/_70%)]">Select A
+                                Bank</label>
+                            <select name="" id=""
+                                class="rounded-[32px] bg-[#F4F5F7] flex items-center gap-2.5 p-[16px_20px] self-stretch text-[1rem] font-light text-[rgb(8_8_8_/_50%)] w-[353px]">
+                                <option value="" selected hidden>Select A Bank</option>
+                                <option value="">Sonali Bank</option>
+                                <option value="">Pubali Bank</option>
+                                <option value="">AB Bank</option>
+                                <option value="">Janata Bank</option>
+                                <option value="">UCB Bank</option>
+                            </select>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <label for="" class="text-[1rem] font-medium text-[ text-[rgb(8_8_8_/_70%)]">Bank
+                                Account Number</label>
+                            <input type="number"
+                                class="rounded-[32px] bg-[#F4F5F7] flex items-center gap-2.5 p-[16px_20px] self-stretch text-[1rem] font-light text-[rgb(8_8_8_/_90%)] w-[353px]"
+                                placeholder="Enter Bank Account Number">
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <label for="" class="text-[1rem] font-medium text-[ text-[rgb(8_8_8_/_70%)]">Amount To
+                                Add </label>
+                            <input type="number" id="add-money-amount"
+                                class="rounded-[32px] bg-[#F4F5F7] flex items-center gap-2.5 p-[16px_20px] self-stretch text-[1rem] font-light text-[rgb(8_8_8_/_90%)] w-[353px]"
+                                placeholder="Add Amount to Widthdraw">
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <label for="" class="text-[1rem] font-medium text-[ text-[rgb(8_8_8_/_70%)]">PIN
+                                Number</label>
+                            <input type="password"
+                                class="rounded-[32px] bg-[#F4F5F7] flex items-center gap-2.5 p-[16px_20px] self-stretch text-[1rem] font-light text-[rgb(8_8_8_/_90%)] w-[353px]"
+                                placeholder="Enter 4 digit pin number">
+                        </div>
+                        <button type="submit" id="add-money-submit" class="btn btn-primary rounded-[32px] mt-3 text-[1rem]">Add Money</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <script src="./assets/js/addmoney.js"></script>
+</body>
+
+</html>
