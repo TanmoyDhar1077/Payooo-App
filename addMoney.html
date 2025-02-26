@@ -20,7 +20,7 @@
                 <div class="flex gap-3 ml-3">
                     <img class="w-[50px] h-[48px]" src="./assets/image/Group.png" alt="">
                     <div class="flex flex-col gap-[6px]">
-                        <h2 class="font-extrabold text-lg">$ 4500</h2>
+                        <h2 class="font-extrabold text-lg">$ <span id="main-balance">4500</span></h2>
                         <p class="text-black/50">Available Balance</p>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         <div class="flex flex-col gap-3">
                             <label for="" class="text-[1rem] font-medium text-[ text-[rgb(8_8_8_/_70%)]">PIN
                                 Number</label>
-                            <input type="password"
+                            <input type="password" id="add-money-pin"
                                 class="rounded-[32px] bg-[#F4F5F7] flex items-center gap-2.5 p-[16px_20px] self-stretch text-[1rem] font-light text-[rgb(8_8_8_/_90%)] w-[353px]"
                                 placeholder="Enter 4 digit pin number">
                         </div>
