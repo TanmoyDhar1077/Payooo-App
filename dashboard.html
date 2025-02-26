@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <h1 class="font-30px">Hello world</h1>
+
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto bg-gray-200">
+        <header>
+            <nav class="flex justify-between bg-white items-center border-b-2 border-[rgba(8,8,8,0.10)] py-5">
+                <div class="flex gap-3 ml-3">
+                    <img class="w-[50px] h-[48px]" src="./assets/image/Group.png" alt="">
+                    <div class="flex flex-col gap-[6px]">
+                        <h2 class="font-extrabold text-lg">$ 4500</h2>
+                        <p class="text-black/50">Available Balance</p>
+                    </div>
+                </div>
+                <button
+                    class="text-sm py-2 px-3 rounded-[8px] border border-[rgba(8,8,8,0.10)] text-[rgb(8_8_8_/_50%)] mr-3 cursor-pointer"><i
+                        class="fa-solid fa-right-from-bracket"></i> Log Out</button>
+            </nav>
+            <section class="card-section pt-5">
+                <div class="flex flex-col gap-3 ml-3">
+                    <h2 class="text-2xl font-bold">🔥 Welcome to Payooo!</h2>
+                    <p class="text-[rgb(8_8_8_/_50%)] text-[16px]/[30px]
+                    ">Enjoy easy and convenient financial services with us.<br> Cashout charge is low and </p>
+                </div>
+                <div class="my-5 flex flex-wrap justify-center gap-3">
+                    <a href="addMoney.html">
+                        <div class="card">
+                            <img src="./assets/image/wallet1.png" alt="">
+                            <p class="font1">Add Money</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/image/send1.png" alt="">
+                            <p class="font1">Cashout</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/image/money1.png" alt="">
+                            <p class="font1">Transfer Money</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/image/bonus1.png" alt="">
+                            <p class="font1">Get Bonus</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/image/purse1.png" alt="">
+                            <p class="font1">Pay Bill</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="./assets/image/transaction1.png" alt="">
+                            <p class="font1">Transactions</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="latest-payment mt-7 px-6">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-semibold text-lg">Latest Payment</h3>
+                    <a class="font1" href="">View all</a>
+                </div>
+                <!-- Bill Card 1 -->
+                <div class="card2 mt-4">
+                    <div class="flex gap-3 items-center">
+                        <img src="./assets/image/wallet1.png" alt="" class="img-card">
+                        <div class="flex flex-col gap-1">
+                            <p class="font-semibold text-[16px]">Electricity Bill</p>
+                            <p class="text-[rgb(8_8_8_/_50%)] text-[12px]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        <img src="./assets/image/Frame.png" alt="">
+                    </a>
+                </div>
+                <!-- Bill Card 2 -->
+                <div class="card2 mt-4">
+                    <div class="flex gap-3 items-center">
+                        <img src="./assets/image/wallet1.png" alt="" class="img-card">
+                        <div class="flex flex-col gap-1">
+                            <p class="font-semibold text-[16px]">Bank Deposit</p>
+                            <p class="text-[rgb(8_8_8_/_50%)] text-[12px]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        <img src="./assets/image/Frame.png" alt="">
+                    </a>
+                </div>
+                <!-- Bill Card 3 -->
+                <div class="card2 mt-4">
+                    <div class="flex gap-3 items-center">
+                        <img src="./assets/image/wallet1.png" alt="" class="img-card">
+                        <div class="flex flex-col gap-1">
+                            <p class="font-semibold text-[16px]">Mobile Recharge</p>
+                            <p class="text-[rgb(8_8_8_/_50%)] text-[12px]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        <img src="./assets/image/Frame.png" alt="">
+                    </a>
+                </div>
+                <!-- Bill Card 4 -->
+                <div class="card2 mt-4">
+                    <div class="flex gap-3 items-center">
+                        <img src="./assets/image/wallet1.png" alt="" class="img-card">
+                        <div class="flex flex-col gap-1">
+                            <p class="font-semibold text-[16px]">Gas Bill</p>
+                            <p class="text-[rgb(8_8_8_/_50%)] text-[12px]">Today 01:44 AM</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        <img src="./assets/image/Frame.png" alt="">
+                    </a>
+                </div>
+            </section>
+        </header>
+    </section>
+    <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
