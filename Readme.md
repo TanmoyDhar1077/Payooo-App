@@ -15,11 +15,10 @@
 
 Fast, secure, and hassle-free payments anytime, anywhere! 💳💰
 
-## 🖥️ Technology 
+## 🛠 Technologies Used:
 
 **Payooo** – A seamless and secure payment app built with modern web technologies.
 
-🛠 Technologies Used:
 
 **HTML5** – For a structured and responsive layout.\
 **CSS** – For styling and design enhancements.\
@@ -27,7 +26,7 @@ Fast, secure, and hassle-free payments anytime, anywhere! 💳💰
 **Tailwind CSS** – For fast and flexible UI design.\
 **DaisyUI** – For pre-designed and customizable UI components.
 
-Experience smooth transactions with Payooo! 🚀💳
+Experience smooth transactions with **Payooo**! 🚀💳
 
 ## 🔗 Live Link
 
